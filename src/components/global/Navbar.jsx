@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav>
-      <div className='sticky top-0 inset-x-0 '>
+    <nav className='sticky top-0 inset-0'>  
+      <div className='container mx-auto '>
         <div>
           <button>
             <span></span>
