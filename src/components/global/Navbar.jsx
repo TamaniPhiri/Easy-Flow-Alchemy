@@ -1,6 +1,10 @@
+import React from 'react'
+
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className='sticky top-0 insert-x-0 '>
+
+    </div>
   )
 }
 
