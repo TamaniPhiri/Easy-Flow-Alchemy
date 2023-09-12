@@ -10,8 +10,8 @@ const Navbar = () => {
       <nav className='relative w-full flex justify-between bg-[#0a0a0a] text-white py-6 px-4 md:px-8 lg:px-12'>
         <div>logo</div>
         <div className='lg:flex hidden  gap-8 '>
-          <Link>Link 1</Link>
-          <Link>Link 2</Link>
+          <Link>Buy</Link>
+          <Link>Latest</Link>
           <Link>Link 3</Link>
         </div>
         <div className='lg:hidden flex '>
