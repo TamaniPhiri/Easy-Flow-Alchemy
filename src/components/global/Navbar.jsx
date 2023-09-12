@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className='lg:flex hidden  gap-8 '>
           <Link>Buy</Link>
           <Link>Latest</Link>
-          <Link>Link 3</Link>
+          <Link>Donate</Link>
         </div>
         <div className='lg:hidden flex '>
           <button onClick={()=>setOpen(!open)}>Menue</button>
