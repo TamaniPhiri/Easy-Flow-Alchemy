@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <motion.div animate={open?{opacity:1,x:0}:{opacity:0,x:"100%"}} className='absolute top-[100%] bg-black lg:hidden min-h-screen right-0 w-2/3'>    
           <div className='flex flex-col gap-4 p-4'>
-          <Link>Buy</Link>
+          <Link className='transition-all ease-out bg-pink-500 rounded-xl items-center'>Buy</Link>
           <Link>Latest</Link>
           <Link>Donate</Link>
           </div>
