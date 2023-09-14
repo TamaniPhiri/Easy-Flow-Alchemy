@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='fixed top-0 w-full z-50'>
       <nav className='relative w-full flex justify-between shadow-2xl bg-[rgb(120,223,214)] text-white py-6 px-4 md:px-8 lg:px-12'>
-        <div><span className='font-bold text-lg lg:text-3xl'>EASY-FLOW</span><span className='font-bold text-lg text-green-500'>-ALCHEMY</span></div>
+        <div><span className='font-bold text-lg lg:text-3xl'>EASY-FLOW</span><span className='font-bold text-lg lg:text-3xl text-green-500'>-ALCHEMY</span></div>
         <div className='lg:flex hidden  gap-8 '>
           <Link className='mt-8 bg-white text-green-500 font-bold p-2 md:p-3 border border-green-100 rounded shadow-xl md:shadow-xl hover:bg-green-400 hover:text-white transition-colors duration-300'>Buy</Link>
           <Link className='mt-8 bg-white text-green-500 font-bold p-2 md:p-3 border border-green-100 rounded shadow-xl md:shadow-xl hover:bg-green-400 hover:text-white transition-colors duration-300'>Latest</Link>
