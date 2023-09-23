@@ -12,8 +12,8 @@ const Navbar = () => {
         <svg
           viewBox="0 0 18 16"
           fill="currentColor"
-          height="3.0em"
-          width="3.0em"
+          height="4.0em"
+          width="3.5em"
 
         >
           <path
@@ -27,7 +27,7 @@ const Navbar = () => {
           <path fill="currentColor" d="M14.5 13.5a.5.5 0 11-1 0 .5.5 0 011 0z" />
         </svg>
 
-        <div className='lg:flex hidden  gap-8 items-center justify-center'>
+        <div className='lg:flex hidden  gap-8 items-center justify-center mb-5'>
           <Link className='mt-8 bg-white text-green-500 font-bold p-2 md:p-3 border border-green-100 rounded shadow-xl md:shadow-xl hover:bg-green-400 hover:text-white transition-colors duration-300'>Buy</Link>
           <Link className='mt-8 bg-white text-green-500 font-bold p-2 md:p-3 border border-green-100 rounded shadow-xl md:shadow-xl hover:bg-green-400 hover:text-white transition-colors duration-300'>Latest</Link>
           <Link className='mt-8 bg-white text-green-500 font-bold p-2 md:p-3 border border-green-100 rounded shadow-xl md:shadow-xl hover:bg-green-400 hover:text-white transition-colors duration-300'>Donate</Link>
