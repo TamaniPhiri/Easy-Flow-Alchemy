@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <div className="w-full justify-center items-center flex py-20">
-      <div className="rounded-lg w-1/2 flex justify-center items-center bg-gray-500">
-        <p>dfgghjjkkl</p>
+      <div className="rounded-xl w-1/2 flex justify-center items-center py-20 bg-gray-500">
+        <p>Popular</p>
       </div>
     </div>
   )
