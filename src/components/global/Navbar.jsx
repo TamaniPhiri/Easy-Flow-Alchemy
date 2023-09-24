@@ -32,14 +32,14 @@ const Navbar = () => {
           <Link className='mt-8 bg-white text-green-500 font-bold p-2 md:p-3 border border-green-100 rounded shadow-xl md:shadow-xl hover:bg-green-400 hover:text-white transition-colors duration-300'>Latest</Link>
           <Link className='mt-8 bg-white text-green-500 font-bold p-2 md:p-3 border border-green-100 rounded shadow-xl md:shadow-xl hover:bg-green-400 hover:text-white transition-colors duration-300'>Donate</Link>
         </div>
-        <div className='lg:hidden flex font-bold text-lg'>
+        <div className='lg:hidden flex font-bold text-xl'>
           <button onClick={() => setOpen(!open)}>Menu</button>
         </div>
         <motion.div animate={open ? { opacity: 1, x: 0 } : { opacity: 0, x: "100%" }} className='absolute top-[100%] bg-black lg:hidden min-h-screen right-0 w-2/3'>
           <div className='flex flex-col gap-4 p-4'>
-            <Link className='text-white '>Buy</Link>
-            <Link className='text-white'>Donate</Link>
-            <Link className='text-white'>Latest</Link>
+            <Link className='text-white font-bold'>Buy</Link>
+            <Link className='text-white font-bold'>Latest</Link>
+            <Link className='text-white font-bold'>Donate</Link>
           </div>
         </motion.div>
       </nav>
