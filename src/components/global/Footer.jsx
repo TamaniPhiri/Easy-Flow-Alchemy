@@ -8,7 +8,7 @@ const Footer = () => {
           <input className="mt-8 rounded-lg py-3 px-8" type="text"
             placeholder="Search Book" />
           <div className="text-lg flex flex-col mt-4">
-            <label className="font-bold text-gray-500" htmlFor="">Shelf
+            <label className="font-bold text-white" htmlFor="">Shelf
             </label>
             <select className="rounded mt-4 py-3" name="" id="">
               <option value=""></option>
